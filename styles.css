@@ -12,7 +12,6 @@ body {
     min-height: 100vh;
 }
 
-/* Navbar Styles */
 .navbar {
     background-color: #0a0a0a;
     padding: 1rem 0;
@@ -47,7 +46,6 @@ body {
 .nav-menu a {
     color: #ffffff;
     text-decoration: none;
-    transition: color 0.3s ease;
     padding: 0.5rem 1rem;
     border-radius: 4px;
 }
@@ -57,8 +55,6 @@ body {
     color: #888;
     background-color: #1a1a1a;
 }
-
-/* Home Page Styles */
 .home-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -100,7 +96,6 @@ body {
     padding: 1rem 2rem;
     text-decoration: none;
     border-radius: 4px;
-    transition: all 0.3s ease;
     font-size: 1rem;
     border: 2px solid #ffffff;
 }
@@ -279,11 +274,9 @@ body {
     padding: 2.5rem;
     border-radius: 8px;
     border: 1px solid #333;
-    transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
     border-color: #666;
 }
 
@@ -381,7 +374,6 @@ body {
 .contact-item a {
     color: #fff;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .contact-item a:hover {
@@ -413,14 +405,12 @@ body {
     border-radius: 8px;
     text-decoration: none;
     color: #fff;
-    transition: all 0.3s ease;
     font-size: 1.1rem;
 }
 
 .social-btn:hover {
     background-color: #1a1a1a;
     border-color: #666;
-    transform: translateX(10px);
 }
 
 .social-btn .icon {
@@ -531,7 +521,6 @@ body {
     padding: 0.5rem;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
         gap: 1rem;
